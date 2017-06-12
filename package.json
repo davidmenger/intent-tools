@@ -1,0 +1,51 @@
+{
+  "name": "intent-tools",
+  "version": "0.1.0",
+  "description": "Tools for processing Rasa.ai JSONs to text learning sets for FB FastText",
+  "main": "main.js",
+  "bin":{
+    "intools": "./bin/intools.js"
+  },
+  "scripts": {
+    "doc": "node ./bin/makeApiDoc.js",
+    "test": "npm run test:lint && npm run test:coverage && npm run test:coverage:threshold",
+    "test:coverage": "istanbul cover ./node_modules/mocha/bin/_mocha -- --opts ./mocha.opts ./test",
+    "test:coverage:threshold": "istanbul check --branches 80 --functions 80 --statements 80 --lines 80  ./coverage/coverage.json",
+    "test:backend": "mocha --opts ./mocha.opts ./test ./src",
+    "test:lint": "eslint --ext .js src test *.js"
+  },
+  "keywords": [
+    "Rasa.ai",
+    "Rasa",
+    "FastText",
+    "ML",
+    "AI",
+    "Machine",
+    "Learning"
+  ],
+  "author": "David Menger",
+  "license": "MIT",
+  "dependencies": {
+    "JSONStream": "^1.3.1",
+    "event-stream": "^3.3.4",
+    "vorpal": "^1.12.0",
+    "xml-nodes": "^0.1.5",
+    "xml-objects": "^1.0.1",
+    "xml-stream": "^0.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-mocha": "^0.2.2",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsdoc": "^3.1.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-mocha": "^4.9.0",
+    "eslint-plugin-react": "^7.0.1",
+    "jsdoc-to-markdown": "^3.0.0",
+    "mocha": "^3.4.2",
+    "mocha-istanbul": "^0.3.0",
+    "mongoose": "^4.10.5",
+    "sinon": "^2.3.2"
+  }
+}

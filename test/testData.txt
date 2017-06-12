@@ -1,0 +1,38 @@
+__label__restaurant_search i'm looking for a place in the north of town
+__label__restaurant_search i'm looking for a place in the centre of town
+__label__restaurant_search i'm looking for a place in the west of town
+__label__restaurant_search i'm looking for a place in the central of town
+__label__restaurant_search show me chinese restaurants
+__label__restaurant_search show me mexican restaurants
+__label__restaurant_search show me indian restaurants
+__label__restaurant_search show me a chinese place in the north
+__label__restaurant_search show me a chinese place in the centre
+__label__restaurant_search show me a chinese place in the west
+__label__restaurant_search show me a chinese place in the central
+__label__restaurant_search show me a mexican place in the north
+__label__restaurant_search show me a mexican place in the centre
+__label__restaurant_search show me a mexican place in the west
+__label__restaurant_search show me a mexican place in the central
+__label__restaurant_search show me a indian place in the north
+__label__restaurant_search show me a indian place in the centre
+__label__restaurant_search show me a indian place in the west
+__label__restaurant_search show me a indian place in the central
+__label__restaurant_search i am looking for an chinese spot
+__label__restaurant_search i am looking for an mexican spot
+__label__restaurant_search i am looking for an indian spot
+__label__restaurant_search anywhere in the north
+__label__restaurant_search anywhere in the centre
+__label__restaurant_search anywhere in the west
+__label__restaurant_search anywhere in the central
+__label__restaurant_search north chinese restaurant
+__label__restaurant_search north mexican restaurant
+__label__restaurant_search north indian restaurant
+__label__restaurant_search centre chinese restaurant
+__label__restaurant_search centre mexican restaurant
+__label__restaurant_search centre indian restaurant
+__label__restaurant_search west chinese restaurant
+__label__restaurant_search west mexican restaurant
+__label__restaurant_search west indian restaurant
+__label__restaurant_search central chinese restaurant
+__label__restaurant_search central mexican restaurant
+__label__restaurant_search central indian restaurant
