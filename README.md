@@ -8,21 +8,21 @@ Because there is good GUI: [Rasa NLU Trainer](https://rasahq.github.io/rasa-nlu-
 
   - **Convert RASA json to fast-text learning set**
 
-    ```bash
-    $ intools jsonToText ./testData.json ./testData.txt
-    ```
+```bash
+$ intools jsonToText ./testData.json ./testData.txt
+```
 
   - **Convert RASA json to fast-text learning set and multiply by entities**
 
-    ```bash
-    $ intools jsonToText -m ./testData.json ./testData.txt
-    ```
+```bash
+$ intools jsonToText -m ./testData.json ./testData.txt
+```
 
   - **Make word vectors learning set from wiki XML export**
 
-    ```bash
-    $ intools wikiToText ./testData.xml ./testData.txt
-    ```
+```bash
+$ intools wikiToText ./testData.xml ./testData.txt
+```
 -----------------
 
 # API

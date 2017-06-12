@@ -14,6 +14,10 @@
     "test:backend": "mocha --opts ./mocha.opts ./test ./src",
     "test:lint": "eslint --ext .js src test *.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pragonauts/intent-tools.git"
+  },
   "keywords": [
     "Rasa.ai",
     "Rasa",
